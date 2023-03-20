@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Vitamin Shoppe</title>
+</head>
+<body>
+    <div class="logo">
+        <img width="450" height="85" src="img/logo.jpg">
+    </div>
+    <main>
+        <div class="main-wheel">
+            <div class="icon-arrow">
+                <img src="img/arrow.png" alt="arrow">
+            </div>
+            <div class="logo1">
+                <img src="img/Untitled.jpg">
+                <audio id="nhac" src="sound/nhac.MP3"></audio>
+                <audio  id="sound-clap" src="sound/votay.MP3"></audio>
+            </div>
+            <ul class="wheel" id = 'wheel1'></ul>
+        </div>
+    </main>
+        <div id="popup-container">
+            <div id="popup-content">
+              <h2>Chúc mừng bạn đã trúng</h2>
+              <h1 class="msg"></h1>
+              <span class="close-icon" onclick="closePopup()"></span>
+            </div>
+          </div>
+        </div>
+    <script src="main.js"></script>
+    <script>
+        function closePopup() {
+        const popup = document.getElementById("popup-container");
+        popup.style.display = "none";
+        }
+        
+    </script>
+</body>
+</html>
