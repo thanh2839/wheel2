@@ -20,7 +20,7 @@
             percent: 8.9/100
         },
         {
-            txtName: 'Voucher hoàn tiền 50k <br>( Đơn từ 499k )</br>',
+            txtName: 'Voucher hoàn tiền 50k',
             percent: 25.5/100
         },
         {
@@ -28,7 +28,7 @@
             percent: 4/100
         },
         {
-            txtName: 'Voucher hoàn tiền 100k <br>( Đơn từ 899k )<br>',
+            txtName: 'Voucher hoàn tiền 100k',
             percent: 25.5/100
         },
         {
