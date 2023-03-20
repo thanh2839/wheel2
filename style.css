@@ -132,14 +132,14 @@ li {
     left: -100%;
     height: 200%;
     width: 200%;
-    text-align:center;
+    text-align: center;
     padding-top: 4rem;
     color: rgb(0,0,0);
-    background-color: #89ceef;
+    background-color: #012169;
 }
 
 .text-item.even {
-    background-color: #24a4e2;
+    background-color: #41b6e6;
 }
 .text-item > b {
     font-family: Arial, Helvetica, sans-serif;
@@ -194,11 +194,23 @@ li {
 
 .close-icon {
     position: absolute;
-    top: 10px;
+    bottom: 150px;
     right: 10px;
     width: 30px;
     height: 30px;
     background: url('img/icon.png') no-repeat center center;
     background-size: cover;
     cursor: pointer;
+  }
+.text-item.even {
+    color: white;
+}
+.text-item.false {
+    color: white;
+}
+span{
+    display: block;
+    margin-top: 35px;
+    display: inline-block;
+    transform: rotate(-90deg);
   }

@@ -16,11 +16,11 @@
             percent: 25.5/100
         },
         {
-            txtName: 'Mua 1 tặng 1 - American Ginseng',
+            txtName: 'Mua 1 tặng 1 <br> American Gimseng</br>',
             percent: 8.9/100
         },
         {
-            txtName: 'Voucher hoàn tiền 50k ( Đơn từ 499k )',
+            txtName: 'Voucher hoàn tiền 50k <br>( Đơn từ 499k )</br>',
             percent: 25.5/100
         },
         {
@@ -28,7 +28,7 @@
             percent: 4/100
         },
         {
-            txtName: 'Voucher hoàn tiền 100k ( Đơn từ 899k )',
+            txtName: 'Voucher hoàn tiền 100k <br>( Đơn từ 899k )<br>',
             percent: 25.5/100
         },
         {
@@ -71,7 +71,7 @@
                 <p class= "text-item ${index % 2 == 0 && 'even'}"
                 style = "transform: skewY(${skewY}deg)
                     rotate(${rotate/2}deg)">
-                    <b>${item.txtName}</b>
+                    <span id="rotate">${item.txtName}</span>
                 </p>
             `;
             wheel.appendChild(itemGift);
